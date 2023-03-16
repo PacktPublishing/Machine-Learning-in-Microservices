@@ -1,0 +1,3 @@
+flask run -h 0.0.0.0 -p 8080 &
+usermod -d /var/lib/mysql/ mysql
+service mysql start
