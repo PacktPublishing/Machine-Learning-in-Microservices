@@ -31,7 +31,6 @@ if len(sys.argv) <= 1:
 REQ_TIMEOUT = 3
 verbose = '-v' in sys.argv
 
-
 if '--help' in sys.argv:
     print(show_version_output)
     print(usage_help)
